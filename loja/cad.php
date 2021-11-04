@@ -9,13 +9,13 @@
     if(mysqli_query($conn,$sql)){
         echo "<script language='javascript' type='text/javascript'> 
           alert('Registro inserido com sucesso!');
-          window.location.href='index.php';
+          window.location.href='loja.php';
           </script>";
     }
     else {
         echo "<script language='javascript' type='text/javascript'> 
           alert('Não foi possível inserir este registro!');
-          window.location.href='index.php'
+          window.location.href='loja.php'
           </script>";
     }
     mysqli_close($conn);

@@ -7,7 +7,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
     <body>
-    <form action="cad.php" method="POST">
+        <form action="cad.php" method="POST">
             <div class="form-group">
                 <label>Nome:</label>
                 <input type="text" class="form-control" name="nome" placeholder="Insira o nome" required/>
@@ -16,7 +16,7 @@
                 <input type="email" class="form-control" name="email" placeholder="Insira o e-mail" required/>
                 <br/>
                 <label>Celular:</label>
-                <input type="text" class="form-control" name="celular" placeholder="Insira o celular" required/>
+                <input type="number" class="form-control" name="celular" placeholder="Insira o celular" required/>
                 <br/>
                 <label>Cidade:</label>
                 <input type="text" class="form-control" name="cidade" placeholder="Insira a cidade" required/>

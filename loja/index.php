@@ -28,18 +28,16 @@
                                 </svg>&nbsp;<b>Login</b></h4>
                             </div>
                             <div class="card-body">
+                                <!-- Formulário de login-->
                                 <form action="login.php" method="POST">
-                                    <div class ="form-group">
-                                        <div class="form-group">
-                                            <label>Login</label>
-                                            <input type="text" class="form-control" name="login" placeholder="Insira o login" required/>
-                                            <br/>
-                                            <label>Senha</label>
-                                            <input type="password" class="form-control" name="senha" placeholder="Insira a senha" required/>
-                                            <br/>
-                                            <button type="submit" class="btn btn-outline-dark">Insira o login</button>
-                                            <br/>
-                                        </div>
+                                    <div class="form-group">
+                                        <label>Login:</label>
+                                        <input type="text" class="form-control" name="login" placeholder="Insira o seu login" required/>
+                                        <br/>
+                                        <label>Senha:</label>
+                                        <input type="password" class="form-control" name="senha" required/>
+                                        <br/>
+                                        <button type="submit" class="btn btn-outline-dark">Logar</button>
                                     </div>
                                 </form>
                             </div>

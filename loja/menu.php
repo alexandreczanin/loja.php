@@ -7,14 +7,13 @@
         echo "   ";
         echo "<a href='loja.php' type='button' class='btn btn-outline-dark'>HOME</a>";
         echo " ";
-        echo "<a href='usuario.php type='button' class='btn btn-outline-dark'>USUÁRIO</a>";
+        echo "<a href='usuario.php' type='button' class='btn btn-outline-dark'>USUÁRIO</a>";
         echo " ";
-        echo "<a href='sair.php type='button' class='btn btn-outline-dark'>SAIR</a>";
+        echo "<a href='sair.php' type='button' class='btn btn-outline-dark'>SAIR</a>";
     }
     else {
-        echo "<a href='loja.php type='button' class='btn btn-outline-dark'>HOME</a>";
+        echo "<a href='loja.php' type='button' class='btn btn-outline-dark'>HOME</a>";
         echo " ";
-        echo "<a href='sair.php type='button' class='btn btn-outline-dark'>SAIR</a>"; 
+        echo "<a href='sair.php' type='button' class='btn btn-outline-dark'>SAIR</a>";
     }
 ?>
-
